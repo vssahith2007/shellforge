@@ -8,3 +8,4 @@ $(TARGET): $(SRC)
 	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
 clean:
 	rm -f $(TARGET) src/*.o
+.PHONY: all clean
